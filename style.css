@@ -1,3 +1,40 @@
-body {
-background-color: #FFAFC5;
+body{
+  Background-color: #9FA2A8;
+}
+h1{
+  color: #F6E9DF;
+    text-align: center; 
+   font-size: 90px;
+  text-shadow: 5px 1px #3C3744;
+  font-family: Verdana;
+}
+p{
+  color: #F6E9DF;
+  text-align: center;
+   font-size: 50px;
+}
+nav {
+  list-style-type: none;
+  background-color: #333;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+li a:hover {
+  background-color: antiquewhite;
+  color: black;
 }
